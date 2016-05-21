@@ -1,6 +1,6 @@
 ### Horizon + Vue + Vue-loader + Stylus + Webpack
 
-[Horizon + vue-chat-app])(https://github.com/rethinkdb/horizon/tree/next/examples/vue-chat-app) in the [vue-loader](https://github.com/vuejs/vue-loader) style. 
+[Horizon + vue-chat-app](https://github.com/rethinkdb/horizon/tree/next/examples/vue-chat-app) in the [vue-loader](https://github.com/vuejs/vue-loader) style. 
 
 Uses vue-router and eslint.
 
