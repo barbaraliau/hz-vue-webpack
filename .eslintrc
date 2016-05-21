@@ -1,0 +1,64 @@
+{
+  "parserOptions" : {
+    "sourceType": "module",
+    "ecmaFeatures" : {
+      "arrowFunctions": true,
+      "blockBindings": true,
+      "classes": true,
+      "destructuring": true,
+      "forOf": true,
+      "generators": true,
+      "modules": true,
+      "objectLiteralComputedProperties": true,
+      "templateStrings": true,
+      "jsx": false
+    }
+  },
+
+  "rules": {
+    "camelcase": [2, {"properties": "always"}],
+    "semi": [2, "never"],
+    "no-dupe-keys": 2,
+    "no-empty": 2,
+    "no-extra-parens": 2,
+    "no-extra-semi": 2,
+    "no-irregular-whitespace": 2,
+    "no-unexpected-multiline": 2,
+    "no-unreachable": 2,
+    "consistent-return": 2,
+    "dot-notation": 2,
+    "guard-for-in": 2,
+    "no-else-return": 2,
+    "no-eval": 2,
+    "no-lone-blocks": 2,
+    "no-multi-spaces": 2,
+    "no-native-reassign": 2,
+    "no-new": 2,
+    "no-proto": 2,
+    "no-self-compare": 2,
+    "no-throw-literal": 2,
+    "no-unused-expressions": 2,
+    "no-useless-call": 2,
+    "no-useless-concat": 2,
+    "no-void": 2,
+    "vars-on-top": 2,
+    "wrap-iife": 2,
+    "strict": 2,
+    "init-declarations": [2, "always"],
+    "no-delete-var": 2,
+    "no-label-var": 2,
+    "callback-return": 2,
+    "global-require": 2,
+    "handle-callback-err": 2,
+    "no-mixed-requires": [1, {"grouping": true}]
+   },
+   "env": {
+     "es6": true,
+     "node": true
+   },
+   "plugins": [
+    "html"
+   ]
+
+
+}
